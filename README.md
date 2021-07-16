@@ -1,2 +1,10 @@
 # Number-Plate-Detection
-This project is an implementation of the technical paper "RECOGNITION OF VEHICLE NUMBER PLATE USING MATLAB" by " Ragini Bhat 1, Bijender Mehandia2". The number plate detector captures a car image and performs enhancement,segmentation,edge detection for detecting and interpretting the number plate.
+This project is an implementation of the technical paper "RECOGNITION OF VEHICLE NUMBER PLATE USING MATLAB" by " Ragini Bhat 1, Bijender Mehandia2". 
+
+STEPS FOLLOWED:
+
+1) Capturing the car image and converting it to a binary image.
+2) Using SobelEdge detetction and Morphological operations to isolate the number plate.
+3) Dialating the image and filling up the holes.
+4) Using segmentation and bounding box techniqe to extract each digit/alphabet fom the number plate.
+5) Comparing the extracted alphabets to the character templates from the database.
